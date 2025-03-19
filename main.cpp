@@ -15,8 +15,6 @@ int main() {
 		std::cin >> playerExitLoopInput;
 	} while (StringManip::stringToLower(playerExitLoopInput) != "quit");
 
-
-	std::cout << "string function worked. Checking stats: ";
 	std::cout << mainCharacter.health << mainCharacter.armorColor << mainCharacter.playerActiveWeapon.nameOfWeapon << mainCharacter.playerActiveWeapon.damageType << mainCharacter.playerActiveWeapon.damage <<
 		mainCharacter.playerInventoryWeapons[0].nameOfWeapon << mainCharacter.intelligence;
 
@@ -25,13 +23,11 @@ int main() {
 
 /*
 Variables:
-Player - stats, health, weapon inventory, weapon in hand
 Weapon - Damage, type of damage, attack speed, weapon name
 Enemies (Enemy types inherit from this class) - weapon, 
 GameBattleState - WIP
 
 Functions:
-Player - Get, set
 Weapon - 
 Enemies - 
 GameBattleState - Phases (prep, damage, results)

@@ -21,3 +21,6 @@ namespace Player {
 		std::string armorColor = "blank";
 	};
 }
+
+//Player Variables - stats, health, weapon inventory, weapon in hand
+//Player Functions - getters and setters to make variabels private
